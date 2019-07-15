@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale=1.0"/> <!-- adjusts to the width and zoom of the device, so viewing on phone isn't as awful -->
+	<meta http-equiv="X-UA-Compatible" content = "ie=edge"/> <!-- what version of internet explorer it is compatible with -->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- import css style sheet -->
+	<title>Weather</title>
+
+</head>
+<body>
+
+	<div class="location">
+		<h1 class="location-timezone">Timezone</h1>
+		<canvas class="icon" width="128" height="128">Icon</canvas>
+	</div>
+
+	<div class="temperature">
+		<div class="degree-section">
+			<h2 class="temperature-degree">32</h2>
+			<span>C</span> <!-- like div, but for inline elements -->
+		</div>
+		<div class ="temperature-description">it's friggen cold</div>
+	</div>
+
+	<script src = "skycons.js"></script>
+	<script src="weather_app.js"></script> <!-- import javascript -->
+</body>
+</html>
